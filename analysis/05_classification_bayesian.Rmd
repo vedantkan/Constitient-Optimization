@@ -18,7 +18,7 @@ library(tidyverse)
 ## Read Data
 
 ```{r}
-df <- readr::read_csv('fall2022_finalproject.csv', col_names = TRUE)
+df <- readr::read_csv('../data/fall2022_finalproject.csv', col_names = TRUE)
 ```
 
 **Making data frame for derived inputs**

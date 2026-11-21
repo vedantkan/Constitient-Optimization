@@ -1,5 +1,5 @@
 ---
-aaatitle: "EDA"
+title: "EDA"
 author: "VBK10"
 date: "2022-11-03"
 output: html_document
@@ -18,7 +18,7 @@ library(tidyverse)
 ## Reading Data
 
 ```{r}
-df <- readr::read_csv("fall2022_finalproject.csv", col_names = TRUE)
+df <- readr::read_csv("../data/fall2022_finalproject.csv", col_names = TRUE)
 ```
 ```{r}
 df %>% glimpse()
