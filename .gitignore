@@ -1,0 +1,12 @@
+# Data (not redistributed)
+data/*.csv
+
+# Cached tuned models
+*.rds
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*_cache/
+*_files/
